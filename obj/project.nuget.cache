@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xFKnheNjxWNk/+NPSGuDJX9fQmi3G8oZkN4AS+ZZIvK9A4s0q0N1D7OXzuIhyz8R7WlVTpyXMYbi0JJ/dpaCog==",
+  "dgSpecHash": "UW4may9sN+GFnMmAk5vAiIICV9hMQO8lm1v2wSzF9Yo9hodT3jCrvobnz83vJN2RntIHz9UoOCcNuRRB1rPElg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\TWJobs.csproj",
+  "projectFilePath": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\TWJobs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

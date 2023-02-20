@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\TWJobs.csproj": {}
+    "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\TWJobs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\TWJobs.csproj": {
+    "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\TWJobs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\TWJobs.csproj",
+        "projectUniqueName": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\TWJobs.csproj",
         "projectName": "TWJobs",
-        "projectPath": "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\TWJobs.csproj",
+        "projectPath": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\TWJobs.csproj",
         "packagesPath": "C:\\Users\\ricardo.gerin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\obj\\",
+        "outputPath": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\treinaweb-asp-net-autenticacao-autorizacao-jwt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricardo.gerin\\AppData\\Roaming\\NuGet\\NuGet.Config",
