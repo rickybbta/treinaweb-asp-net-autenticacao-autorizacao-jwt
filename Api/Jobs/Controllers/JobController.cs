@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TWJobs.Api.Common.Assemblers;
 using TWJobs.Api.Common.Dtos;
@@ -7,7 +6,6 @@ using TWJobs.Api.Jobs.Services;
 
 namespace TWJobs.Api.Jobs.Controllers;
 
-[Authorize]
 [ApiController]
 [Route("/api/jobs")]
 public class JobController : ControllerBase
@@ -43,7 +41,6 @@ public class JobController : ControllerBase
         return Ok(_jobDetailAssembler.ToResource(body, HttpContext));
     }
 
-    [Authorize(Roles = "Admin")]
     [HttpPost(Name = "CreateJob")]
     [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(JobDetailResponse))]
     [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationErrorResponse))]
@@ -57,7 +54,6 @@ public class JobController : ControllerBase
         );
     }
 
-    [Authorize(Roles = "Admin")]
     [HttpPut("{id}", Name = "UpdateJobById")]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(JobDetailResponse))]
     [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationErrorResponse))]
@@ -68,7 +64,6 @@ public class JobController : ControllerBase
         return Ok(_jobDetailAssembler.ToResource(body, HttpContext));
     }
 
-    [Authorize(Roles = "Admin")]
     [HttpDelete("{id}", Name = "DeleteJobById")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(ErrorResponse))]

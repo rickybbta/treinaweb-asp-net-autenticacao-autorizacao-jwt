@@ -15,6 +15,5 @@ public static class ValidatorsConfig
         services.AddScoped<IValidator<JobRequest>, JobRequestValidator>();
         services.AddScoped<IValidator<RegisterRequest>, RegisterValidator>();
         services.AddScoped<IValidator<CreateUserRequest>, CreateUserValidator>();
-        services.AddScoped<IValidator<LoginRequest>, LoginValidator>();
     }
 }

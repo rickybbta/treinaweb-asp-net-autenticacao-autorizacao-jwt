@@ -24,15 +24,4 @@ public class ResourseResponse
             Links.Add(link);
         }
     }
-
-    public void AddLinksIf(bool condition, params LinkResponse[] links)
-    {
-        if (condition)
-        {
-            foreach (var link in links)
-            {
-                Links.Add(link);
-            }
-        }
-    }
 }
