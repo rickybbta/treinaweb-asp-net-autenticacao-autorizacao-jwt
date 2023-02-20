@@ -20,9 +20,9 @@ public class AuthMapper : IAuthMapper
         return new RegisterResponse
         {
             Id = user.Id,
-            Username = user.UserName,
-            Email = user.Email,
-            PhoneNumber = user.PhoneNumber,
+            Username = user.UserName ?? "",
+            Email = user.Email ?? "",
+            PhoneNumber = user.PhoneNumber ?? "",
         };
     }
 }
